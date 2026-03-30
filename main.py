@@ -3,9 +3,8 @@ from openai import OpenAI
 import os
 
 app = Flask(__name__)
-
-api_key = os.getenv("OPENAI_API_KEY")
-client = OpenAI(api_key)
+ 
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 messages = [
     {"role": "system", "content": "You are name is ORION 5."}
