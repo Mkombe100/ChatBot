@@ -1,6 +1,3 @@
-import pandas as pd
-import numpy as np
-
 name_of_model = "Orion 5"
 creator_of_model = "Muksin Saidi Mkombe"
 technology_used = "Python (Flask, Pandas, NumPy, OpenAI)"
