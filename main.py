@@ -1,13 +1,14 @@
 from flask import Flask, render_template, request, jsonify
 from openai import OpenAI
 import os
+from configuration import bot_response
 
 app = Flask(__name__)
  
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 messages = [
-    {"role": "system", "content": "You are name is ORION 5."}
+    {"role": "system", "content": bot_response()}
 ]
 
 @app.route("/")
