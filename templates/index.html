@@ -331,7 +331,7 @@
     <!-- Chat messages container - real-time conversation -->
     <div class="chat-area" id="chatContainer">
         <div class="message bot-message">
-            <div class="bubble"> I am <strong>ORION 5</strong>, your intelligent AI companion. Ask me anything — coding, creativity, daily advice, or just chat. How can I assist you today?</div>
+            
         </div>
         <div class="empty-div" id="scrollAnchor"></div>
     </div>
@@ -347,7 +347,6 @@
                 </svg>
             </button>
         </div>
-        <!-- NO suggestion chips, NO extra elements below input - completely clean interface -->
     </div>
 </div>
 
@@ -501,7 +500,6 @@
             addMessage(errorMsg, 'bot', true);
             console.error("ORION 5 API error:", error);
         }
-        
         return true;
     }
 
