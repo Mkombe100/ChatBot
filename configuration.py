@@ -1,5 +1,5 @@
 name_of_model = "Orion 5"
-creator_of_model = "Muksin Saidi Mkombe"
+creator_of_model = "Cathe"
 technology_used = "Python (Flask, Pandas, NumPy, OpenAI)"
 creation_year = "2026"
 purpose = "Helpful assistant in Mzumbe PastPaper System"
